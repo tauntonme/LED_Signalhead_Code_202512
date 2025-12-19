@@ -1,4 +1,8 @@
 # LED_Signalhead_Code_202512
 Dual LED lamp
+
 Here are all the programme code files.
-To work with these you will need to have installed STM32CubeIDE. To download any new code you need an ST-Link device programmer such as <a href="https://www.st.com/en/development-tools/stlink-v3set.html" target="_blank">this one.</a>
+
+To work with these you will need to have installed <a href="https://www.st.com/en/development-tools/stm32cubeide.html" target="_blank">STM32CubeIDE</a> free from ST Microelectronics.
+
+To download any new code you need an ST-Link device programmer such as <a href="https://www.st.com/en/development-tools/stlink-v3set.html" target="_blank">this one.</a>
