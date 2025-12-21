@@ -9,7 +9,7 @@
 #ifndef INC_PARAMZ_HPP_
 #define INC_PARAMZ_HPP_
 
-#include	"Serial.hpp"
+//#include	"Serial.hpp"
 
 #define	MAX_CLI_PARAMS	20	//	MAX_CLI_PARAMS max number of command line numeric parameters to look for
 #define	MAX_2ND_WORD_LEN	22
@@ -25,7 +25,7 @@ struct  parameters  {   //  Used in serial comms with pc and other controller (e
     char		second_word[MAX_2ND_WORD_LEN + 2] {0};	//	used in settings
     const char * command_line {nullptr};	//	to make input command line available to functions
     bool		function_returned;	//	New Jan 2024
-    Serial * 	com	;
+//    Serial * 	com	;
 //    bool    	respond;	//	Used in STM motor control, individual board select in multi-board systems
 }   ;
 

@@ -98,7 +98,8 @@ extern	I2C_HandleTypeDef 	hi2c1;	//	I2C
 
 Serial				pc(huart2);		//, * Com_ptrs[];
 i2eeprom_settings	my_settings	(settings_data, hi2c1)	;	//	Create one i2eeprom_settings object named 'j_settings'
-CommandLineHandler	command_line_handler	(pc_command_list, &pc);	//	Nice and clean
+//CommandLineHandler	command_line_handler	(pc_command_list, &pc);	//	Nice and clean
+CommandLineHandler	command_line_handler	(pc_command_list);	//	Nice and clean
 
 //#define	COM_PORT	pc
 

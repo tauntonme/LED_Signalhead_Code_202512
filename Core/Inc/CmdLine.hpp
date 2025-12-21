@@ -49,10 +49,11 @@ class	CommandLineHandler	{
 	  struct parameters par;
 	  struct cli_menu_entry_set const * pcmdlist;
   public:
-	  CommandLineHandler	(struct cli_menu_entry_set const * pcml, Serial * prt)	{	//	Constructor
+//	  CommandLineHandler	(struct cli_menu_entry_set const * pcml, Serial * prt)	{	//	Constructor
+	  CommandLineHandler	(struct cli_menu_entry_set const * pcml)	{	//	Constructor
 		  par.command_list = pcml;
 		  pcmdlist = pcml;
-		  par.com = prt;
+//		  par.com = prt;
 	  }	;
 	  bool	CommandExec	(const char * t)	;
 }	;
